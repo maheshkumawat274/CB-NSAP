@@ -33,7 +33,7 @@ const TestimonialSlider = () => {
     <section className="pt-10 relative">
       <h1 className="text-center font-poppins mb-6 text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-gray-700">
       What Students Say About Us!
-    </h1>
+      </h1>
 
     <div className="max-w-5xl mx-auto pb-10 px-14 sm:px-4">
       
