@@ -34,7 +34,7 @@ const faqs: FAQItem[] = [
   },
   {
     question: "Which universities are covered under the National Scholarship Admission Program?",
-    answer: "The program covers multiple recognized universities across India offering UG and PG courses. You will get a list of partnered universities after registration."
+    answer: "The program covers multiple recognized universities across India offering UG and PG courses. You will get a list of Top universities after registration."
   },
   {
     question: "Will CareerBanao assist in the admission process under this program?",
@@ -60,7 +60,7 @@ const FAQSection: React.FC = () => {
   };
 
   return (
-    <div className="max-w-2xl sm:max-w-5xl mx-auto p-6">
+    <div className="max-w-2xl sm:max-w-5xl mx-auto p-6 mb-14">
       <h1 className="text-3xl text-gray-700 font-bold text-center mb-6">Frequently Asked Questions</h1>
       <div className="space-y-4">
         {faqs.map((faq, index) => (

@@ -10,14 +10,12 @@ const Section = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <h1 className=" text-2xl sm:text-4xl font-bold text-purple-700 leading-tight text-center">
+        <h1 className=" text-xl sm:text-3xl font-bold text-purple-700 leading-tight text-center">
           CareerBanao National Scholarship Admission Program 2025(CB-NSAP 2025)
         </h1>
         <h1 className="text-xl font-semibold text-blue-600">Helping Students Across India</h1>
         <p className="text-black text-lg">
-          We provide expert counseling and admission assistance for students seeking higher education
-          in top colleges and universities across India. Our team ensures a seamless admission process
-          with complete guidance and support.
+        CB-NSAP 2025 is a national scholarship initiative by CareerBanao, offering financial support and admission guidance to deserving students. It provides scholarships, career counseling, and admission assistance to help students achieve their academic goals without financial barriers. A golden opportunity to shape your future and unlock career success.
         </p>
         
       </motion.div>

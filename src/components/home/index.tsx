@@ -21,7 +21,7 @@ const Home = React.forwardRef<HTMLDivElement>((_,ref) => {
           {/* Semi-transparent background container */}
           <div ref={ref} className="w-full sm:w-3/4 md:w-2/5 p-2 sm:p-6">
             <h1 className="text-center text-2xl sm:text-xl lg:text-3xl font-bold text-white mb-1">
-              ADMISSIONS OPEN 2025
+             CB-NSAP 2025
             </h1>
             <AdmissionForm/>
           </div>

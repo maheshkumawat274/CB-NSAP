@@ -413,7 +413,7 @@ const handleClick = (url: string) => {
 
   
   return (
-    <div className=" font-poppins px-4 sm:px-14">
+    <div className=" font-poppins px-2 sm:px-14">
   {/* 🔹 Section Heading */}
   <h1 className="text-2xl sm:text-3xl font-bold text-center text-purple-700 pt-14">
      <MdSchool className="inline-block text-primaryBtn text-5xl mr-2" />
@@ -421,16 +421,16 @@ const handleClick = (url: string) => {
     </h1>
 
   {/* 🔹 Search Section */}
-  <div className="text-center p-6">
+  <div className="text-center pt-6">
     {/* 🔹 Search Section */}
-    <h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb-2">
+    <h1 className="text-md md:text-3xl font-bold text-gray-800 mb-2">
       CareerBanao National Scholarship Admission Program 2025(CB-NSAP 2025)
     </h1>
     <h1 className="text-lg md:text-xl font-bold text-purple-700">
-      Your Gateway to Top Colleges
+      Your Gateway to Dream Colleges
     </h1>
     <h1 className="text-lg md:text-xl font-semibold text-pink-500">
-    "Dream Big, Study Smart!"
+    "Think Scholarship, Choose CareerBanao!"
     </h1>
     <p className="text-gray-600 mt-3 text-sm md:text-base">
       Secure admission in top universities across India with expert guidance and support. Apply now!
