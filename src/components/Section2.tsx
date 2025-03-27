@@ -424,7 +424,7 @@ const handleClick = (url: string) => {
   <div className="text-center p-6">
     {/* 🔹 Search Section */}
     <h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb-2">
-      National Admission Assistance Program 2025
+      CareerBanao National Scholarship Admission Program 2025(CB-NSAP 2025)
     </h1>
     <h1 className="text-lg md:text-xl font-bold text-purple-700">
       Your Gateway to Top Colleges

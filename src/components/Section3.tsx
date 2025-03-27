@@ -2,33 +2,29 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+// import "./landingpage.css";
 
 
-
-const Section3: React.FC<{ onApplyClick?: () => void }> = ({ onApplyClick = () => {} })  => {
+const Ranking: React.FC<{ onApplyClick?: () => void }> = ({ onApplyClick = () => {} })  => {
   const cards = [
-    "./imgs/drcc1.jpeg",
-    "./imgs/drcc2.jpg",
-    "./imgs/drcc3.jpeg",
-    "./imgs/drcc4.jpeg",
-    "./imgs/drcc5.jpeg",
-    "./imgs/drcc6.jpeg",
-    "./imgs/drcc7.jpeg",
-    "./imgs/drcc8.jpeg",
-    "./imgs/drcc9.jpeg",
-    "./imgs/drcc10.jpeg",
-    "./imgs/drcc11.jpg",
+    "./imgs/mhrd.png",
+    "./imgs/naac-removebg-preview.png",
+    "./imgs/nirf.png",
+    "./imgs/qs-rankingNew.png",
+    "./imgs/the-ranking.webp",
+    "./imgs/unlayer_images_1739525152181-logo4.png",
+    "./imgs/unlayer_images_1739525230300-logo2.webp"
   ];
 
   const sliderSettings = {
     infinite: true,
-    slidesToShow: 5,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
     speed: 500,
     autoplaySpeed: 2000,
     pauseOnHover: true,
-    dots: false,
+    dots: true,
     arrows: false,
     appendDots: (dots: React.ReactNode) => (
       <div className="mt-4">
@@ -36,7 +32,7 @@ const Section3: React.FC<{ onApplyClick?: () => void }> = ({ onApplyClick = () =
       </div>
     ),
     responsive: [
-      { breakpoint: 1024, settings: { slidesToShow: 4 } },
+      { breakpoint: 1024, settings: { slidesToShow: 3 } },
       { breakpoint: 768, settings: { slidesToShow: 3 } },
       { breakpoint: 640, settings: { slidesToShow: 2 } },
     ],
@@ -44,10 +40,10 @@ const Section3: React.FC<{ onApplyClick?: () => void }> = ({ onApplyClick = () =
 
   return (
     <section className="py-10 relative">
-      <h1 className="text-center font-poppins mb-6 text-2xl sm:text-4xl font-bold text-purple-700">
-      University Ranking
+      <h1 className="text-center font-poppins mb-6 text-2xl sm:text-4xl font-bold text-gray-700">
+      Rankings & Accreditations
       </h1>
-      <div className="container mx-auto px-4 sm:px-14 relative">
+      <div className="container mx-auto px-4 relative">
         <Slider {...sliderSettings}>
           {cards.map((logoUrl, index) => (
             <div key={index} className="p-5 pb-8">
@@ -65,4 +61,4 @@ const Section3: React.FC<{ onApplyClick?: () => void }> = ({ onApplyClick = () =
   );
 };
 
-export default Section3;
+export default Ranking;
