@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+/* Center Card Effect */
+.slick-center .testimonial-card {
+  transform: scale(1.2) translateY(0px);
+  opacity: 1;
+  filter: blur(0);
+  transition: all 0.5s ease-in-out;
+}
+
+/* Other Cards (Blur Effect) */
+.testimonial-card {
+  transform: scale(0.9);
+  opacity: 0.5;
+  filter: blur(2px);
+  transition: all 0.5s ease-in-out;
+}
