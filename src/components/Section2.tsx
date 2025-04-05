@@ -312,7 +312,7 @@ const colleges = [
         "logo": "./imgs/Jecrc-University.png",
         "highlights": ["Leading Private University", "Research-Oriented Curriculum", "Strong Industry Connect"],
         "location": "Jaipur, Rajasthan",
-        "link": "https://jecrcuniversity.edu.in/"
+        "link": "https://enquiry.careerbanao.org/?utm_source=national_website&utm_medium=JECRC%20university%20jaipur&utm_campaign=national%20admission%20landingpage"
       },
       {
         "id": 35,
@@ -321,7 +321,7 @@ const colleges = [
         "logo": "./imgs/images (5).png",
         "highlights": ["Innovation-Driven Education", "Top Engineering Programs", "State-of-the-Art Infrastructure"],
         "location": "Telangana, South India ",
-        "link": "https://www.sru.edu.in/"
+        "link": "https://enquiry.careerbanao.org/?utm_source=national_website&utm_medium=SR%20university%20Telangana&utm_campaign=national%20admission%20landingpage"
       },
       {
         "id": 36,
@@ -330,7 +330,7 @@ const colleges = [
         "logo": "./imgs/amity_university_gurgaon_logo.jpeg",
         "highlights": ["Global Learning Environment", "Industry-Focused Education", "Modern Facilities"],
         "location": "Bangalore, Karnataka, South India ",
-        "link": "https://www.amity.edu/bangalore/"
+        "link": "https://enquiry.careerbanao.org/?utm_source=national_website&utm_medium=amity%20university%20Bangalore&utm_campaign=national%20admission%20landingpage"
       }
     ];
     
